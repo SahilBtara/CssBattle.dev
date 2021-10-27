@@ -1,0 +1,57 @@
+<div id="l">
+  <div id="a"></div>
+  <div id="b"></div>
+  <p id="bs">
+  <div id="c"></div>
+  <p id="cs">
+<style>
+  body{
+    background:#0b2429;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+#l{
+    height:250;
+    width:250;
+    background:#0b2429;
+    position:relative
+}
+#a{
+    background:#f3ac3c;
+    float:right;
+    margin-top:5;
+    margin-right:5
+}
+#b{
+    background:#998235;
+    position:absolute;
+    margin-top:65;
+    margin-left:65
+}
+#c{
+    background:#f3ac3c;
+    position:absolute;
+    margin-top:125;
+    margin-left:5
+}
+#bs{
+    background:#998235;
+    margin-top:65;
+    margin-left:125
+}
+#cs{
+    background:#f3ac3c;
+    margin-top:125;
+    margin-left:65
+}
+p{
+    height:60;
+    width:60;
+    position:absolute
+}
+div>div{
+    border-radius:50%;
+    height:120;
+    width:120
+}
